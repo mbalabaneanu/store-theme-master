@@ -9,6 +9,9 @@
   color: #727273;
   justify-content: center;
   text-align: center;
+  font-size: 30px !important;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .container--shelfTitleNew {
@@ -16,6 +19,8 @@
   color: #727273;
   justify-content: center;
   font-size: 30px !important;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .headingLevel2--shelfTitle {
