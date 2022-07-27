@@ -1,0 +1,149 @@
+{
+  "store.home": {
+    "blocks": [
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      // "rich-text#shelf",
+      "list-context.image-list#demo",
+      "list-context.image-list#demo",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "__fold__",
+      "info-card#home",
+      "rich-text#question",
+      "rich-text#link",
+      "newsletter",
+      "flex-layout.row#deals"
+    ]
+  },
+  "rich-text#shelf": {
+    "props": {
+      "text": "New Arrivals",
+      "blockClass": "shelfTitleNew"
+    }
+  },
+  "list-context.image-list#demo": {
+    "children": ["rich-text#shelf","slider-layout#demo-images", "link#img"],
+    "props": {
+      // "headline": "New Arrivals",
+      "fullWidth": false,
+      "preload": true,
+      "images": 
+        [
+        {
+          "image": "assets/1.jpg",
+          "mobileImage": "assets/1.jpg",
+          "width": "800pxpx" 
+        },
+          {
+            "image": "assets/2.jpg",
+            "mobileImage": "assets/2.jpg",
+            "width": "800pxpx"
+          },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png",
+          "width": "800pxpx"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png",
+          "width": "800pxpx"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png",
+          "width": "800pxpx"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png",
+          "width": "800pxpx"
+        }
+      ]
+    }
+  },
+
+  "link#img": {
+    "props": {
+          "displayMode": "button",
+          "buttonProps": {
+            "variant": "primary",
+            "size": "large"         
+          },
+          "href": "/link",
+          "label": "Incearca acum"
+  } },
+
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  // bestsellers
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "Bestsellers",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/1.jpg",
+      "headline": "Carte1",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+
+  "rich-text#question": {
+    "props": {
+      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "blockClass": "question"
+    }
+  },
+
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "blockClass": "link"
+    }
+  }
+  }
+
