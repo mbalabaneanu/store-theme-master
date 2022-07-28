@@ -16,7 +16,9 @@
   "flex-layout.col#text-about-us": {
     "children": [
       "rich-text#title-about-us",
-      "rich-text#about-us"
+      "rich-text#about-us",
+      "rich-text#title-about-uss"
+     
     ],
     "props": {
       "blockclass": "textColumn",
@@ -27,14 +29,14 @@
   "rich-text#title-about-us": {
     "props": {
       "text":
-      "# Create meaningful and relevant experiences.",
+      "Unde ne gasiti?",
       "blockClass": "title"
     }
   },
 
   "image#mobile-phone": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "src": "https://media.giphy.com/media/3tLrOmu4C0nOE/giphy.gif",
       "maxHeight": "",
       "maxWidth": "",
       "blockClass": "storePrint"
@@ -49,8 +51,15 @@
   },
   "rich-text#about-us": {
     "props": {
-      "text": "**Optimized store framework** \n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n **Multi-currency and language** \n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n **Serverless development platform** \n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever.",
+      "text": "**-Strada Pierre de Coubertin nr. 3-5, lângă Arena Națională, Bucureşti, Mega Mall, etajul 1 \n -Strada Lipscani, nr. 55, Centrul Istoric, București \n -Str. Arthur Verona 13-15, Sector 1, Bucureşti**",
       "blockClass": "about"
+    }
+  },
+  "rich-text#title-about-uss": {
+    "props": {
+      "text":
+      "Contact:",
+      "blockClass": "title"
     }
   }
 }
