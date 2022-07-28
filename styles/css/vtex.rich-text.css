@@ -33,6 +33,7 @@
 
 .container--link {
   justify-content: center;
+  float: center;
 }
 
 .container--question {
