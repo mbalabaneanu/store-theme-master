@@ -40,7 +40,7 @@
 }
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
-  color: white;
+  color: gray;
   font-size: 14px;
 }
 
