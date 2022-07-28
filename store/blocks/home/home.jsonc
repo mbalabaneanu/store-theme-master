@@ -9,6 +9,7 @@
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__",
+      "rich-text#white",
       "info-card#home",
       // "rich-text#question",
       // "rich-text#link",
@@ -117,6 +118,14 @@
       "blockClass": "shelf"
     }
   },
+
+  "rich-text#white":{
+    "props": {
+      "text": "Titlu alb",
+      "blockClass": "shelfTitleWhite"
+    }
+  },
+    
 
   "info-card#home": {
     "props": {

@@ -101,4 +101,9 @@
   .container--title .paragraph {
     line-height: 1.3em;
   }
+
+  .container--shelfTitleWhite {
+    color: white;
+  }
 }
+
