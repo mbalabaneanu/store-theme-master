@@ -198,12 +198,12 @@
           "muted-5": "#f2f4f5"
         },
         "on": {
-          "base": "#ffffff",
-          "base--inverted": "#ffffff",
+          "base": "black",
+          "base--inverted": "black",
           "action-primary": "#ffffff",
           "action-secondary": "#0F3E99",
           "emphasis": "#ffffff",
-          "disabled": "#fff",
+          "disabled": "black",
           "success": "#ffffff",
           "success--faded": "#3f3f40",
           "danger": "#ffffff",
