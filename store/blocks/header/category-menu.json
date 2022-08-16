@@ -5,7 +5,6 @@
     },
     "children": [
       "menu-item#category-apparel",
-      "menu-item#category-home",
       "menu-item#more"
     ]
   },
@@ -19,8 +18,8 @@
         "type": "internal",
         "href": "/categorii/",
         "noFollow": false,
-        "tagTitle": "Categorii",
-        "text": "Categorii"
+        "tagTitle": "categorii",
+        "text": "categorii"
       }
     },
     "blocks": [
@@ -87,21 +86,6 @@
         "noFollow": false,
         "tagTitle": "Filosofie",
         "text": "Filosofie"
-      }
-    }
-  },
-  "menu-item#category-home": {
-    "props": {
-      "id": "menu-item-category-home",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/home---decor/",
-        "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
       }
     }
   },
