@@ -62,7 +62,7 @@
             "variant": "primary",
             "size": "large"         
           },
-          "href": "/link",
+          "href": "/carti/politiste?initialMap=c&initialQuery=carti&map=category-1,brand",
           "label": "Incearca acum"
   } },
 
