@@ -2,8 +2,17 @@
   "store.custom#about-us": {
     "blocks": [
       "flex-layout.row#about-us",
+<<<<<<< Updated upstream
       "video#about-us"
     ]
+=======
+      "list-context.image-list#demo0"
+      
+    ],
+    "props":{
+      "image":"assets/fundalabouus.png"
+    }
+>>>>>>> Stashed changes
   },
 
   "flex-layout.row#about-us": {
@@ -17,8 +26,14 @@
     "children": [
       "rich-text#title-about-us",
       "rich-text#about-us",
+<<<<<<< Updated upstream
       "rich-text#title-about-uss"
      
+=======
+      "rich-text#title-about-uss",
+      "rich-text#about-uss"
+      
+>>>>>>> Stashed changes
     ],
     "props": {
       "blockclass": "textColumn",

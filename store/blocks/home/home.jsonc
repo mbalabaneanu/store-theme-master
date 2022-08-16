@@ -5,10 +5,15 @@
       "flex-layout.row#shelf",
       // "rich-text#shelf",
       "list-context.image-list#demo",
-      "list-context.image-list#demo",
+       "list-context.image-list#demo1",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+<<<<<<< Updated upstream
       "__fold__",
+=======
+      // "_fold_",
+      "rich-text#white",
+>>>>>>> Stashed changes
       "info-card#home",
       // "rich-text#question",
       // "rich-text#link",
@@ -30,36 +35,26 @@
       "preload": true,
       "images": 
         [
-        {
-          "image": "assets/1.jpg",
-          "mobileImage": "assets/1.jpg",
+       {
+          "image": "assets/1.jpeg",
+          "mobileImage": "assets/1.jpeg",
           "width": "800pxpx" 
         },
           {
-            "image": "assets/2.jpg",
-            "mobileImage": "assets/2.jpg",
+            "image": "assets/2.jpeg",
+            "mobileImage": "assets/2.jpeg",
             "width": "800pxpx"
           },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png",
-          "width": "800pxpx"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png",
-          "width": "800pxpx"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png",
-          "width": "800pxpx"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png",
-          "width": "800pxpx"
-        }
+          {
+            "image": "assets/3.jpeg",
+            "mobileImage": "assets/3.jpeg",
+            "width": "800pxpx" 
+          },
+            {
+              "image": "assets/4.jpeg",
+              "mobileImage": "assets/4.jpeg",
+              "width": "800pxpx"
+            }
       ]
     }
   },
@@ -87,7 +82,78 @@
       "blockClass": "carousel"
     }
   },
+  "rich-text#shelf1": {
+    "props": {
+      "text": "Reduceri",
+      "blockClass": "shelfTitleNew"
+    }
+  },
+  "list-context.image-list#demo1": {
+    "children": ["rich-text#shelf1","slider-layout#demo-images1", "link#img1"],
+    "props": {
+      // "headline": "New Arrivals",
+      "fullWidth": false,
+      "preload": true,
+      "displayMode": "button",
+      "buttonProps": {
+      "variant": "primary",
+       "size": "large"         
+      },
+      "images": 
+        [
+       {
+        
+          "image": "assets/6.jpeg",
+          "mobileImage": "assets/6.jpeg",
+          "width": "800pxpx" 
+        },
+          {
+            "image": "assets/7.jpeg",
+            "mobileImage": "assets/7.jpeg",
+            "width": "800pxpx"
+          },
+          {
+            "image": "assets/8.jpeg",
+            "mobileImage": "assets/8.jpeg",
+            "width": "800pxpx" 
+          },
+            {
+              "image": "assets/9.jpeg",
+              "mobileImage": "assets/9.jpeg",
+              "width": "800pxpx"
+            },
+            {
+              "image": "assets/10.jpeg",
+              "mobileImage": "assets/10.jpeg",
+              "width": "800pxpx"
+            }
+      ]
+    }
+  },
 
+  "link#img1": {
+    "props": {
+          "displayMode": "button",
+          "buttonProps": {
+            "variant": "primary",
+            "size": "large"         
+          },
+          "href": "/link",
+          "label": "Incearca acum"
+  } },
+
+  "slider-layout#demo-images1": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
   // bestsellers
   "rich-text#shelf-title": {
     "props": {
@@ -120,30 +186,34 @@
 
   "info-card#home": {
     "props": {
+      
       "id": "info-card-home",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "assets/1.jpg",
-      "headline": "Carte1",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
+      "imageUrl": "assets/11.jpeg",
+      "headline": "Vlad Stoiculescu",
+      "callToActionText": "Vezi mai multe",
+      "callToActionUrl": "/jucariistricate/p",
       "blockClass": "info-card-home",
       "textAlignment": "center"
+   
+       
+      
+    
     }
   }
 
   // "rich-text#question": {
   //   "props": {
-  //     "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+  //     "text": "*This is an example store built using the VTEX platform.\nWant to know more?*",
   //     "blockClass": "question"
   //   }
   // },
 
   // "rich-text#link": {
   //   "props": {
-  //     "text": "\n**Reach us at**\nwww.vtex.com.br",
+  //     "text": "\n*Reach us at*\nwww.vtex.com.br",
   //     "blockClass": "link"
   //   }
   // }
   }
-

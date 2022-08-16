@@ -63,10 +63,18 @@
 .imageElement--storePrint {
   max-height: 300px;
   margin-bottom: 20px;
+<<<<<<< Updated upstream
+=======
+  margin-top: 20px;
+  margin-left: 40px;
+  
+
+>>>>>>> Stashed changes
 }
 
 .skuSelectorContainer {
   margin: 1rem 0;
+ 
 }
 
 @media only screen and (min-width: 640px) {
