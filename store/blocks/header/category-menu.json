@@ -39,14 +39,17 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#category-apparel-dezvoltare",
+      "menu-item#category-apparel-fictiune",
+      "menu-item#category-apparel-filosofie",
+      "menu-item#category-apparel-politiste", 
+      "menu-item#category-apparel-psihologice",     
+      "menu-item#category-apparel-romantice"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+  "menu-item#category-apparel-politiste": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "id": "menu-item-category-apparel-politiste",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -74,18 +77,18 @@
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "menu-item#category-apparel-fictiune": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
+      "id": "menu-item-category-apparel-fictiune",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/categorii/Filosofie",
+        "href": "/categorii/Fictiune",
         "noFollow": false,
-        "tagTitle": "Filosofie",
-        "text": "Filosofie"
+        "tagTitle": "Fictiune",
+        "text": "Fictiune"
       }
     }
   },
@@ -96,11 +99,11 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
+      "type": "internal",
+      "href": "#",
+      "noFollow": true,
+      "tagTitle": "More",
+      "text": "More"
       }
     },
     "blocks": [
@@ -133,7 +136,8 @@
   },
   "vtex.menu@2.x:menu#more": {
     "props": {
-      "orientation": "vertical"
+      "orientation":
+       "vertical"
     },
     "children": [
       "menu-item#about-us",
