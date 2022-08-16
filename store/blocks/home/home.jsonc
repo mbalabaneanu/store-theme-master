@@ -8,12 +8,8 @@
        "list-context.image-list#demo1",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-
-      // "__fold__",
-
-      // "_fold_",
-      // "rich-text#white",
-
+      // "fold",
+      "rich-text#white",
       "info-card#home",
       // "rich-text#question",
       // "rich-text#link",
@@ -66,7 +62,7 @@
             "variant": "primary",
             "size": "large"         
           },
-          "href": "/link",
+          "href": "/carti/politiste?initialMap=c&initialQuery=carti&map=category-1,brand",
           "label": "Incearca acum"
   } },
 
@@ -184,6 +180,14 @@
     }
   },
 
+  "rich-text#white":{
+    "props": {
+      "text": "Titlu alb",
+      "blockClass": "shelfTitleWhite"
+    }
+  },
+    
+
   "info-card#home": {
     "props": {
       
@@ -205,7 +209,7 @@
 
   // "rich-text#question": {
   //   "props": {
-  //     "text": "*This is an example store built using the VTEX platform.\nWant to know more?*",
+  //     "text": "This is an example store built using the VTEX platform.\nWant to know more?",
   //     "blockClass": "question"
   //   }
   // },

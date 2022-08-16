@@ -33,6 +33,7 @@
 
 .container--link {
   justify-content: center;
+  float: center;
 }
 
 .container--question {
@@ -75,11 +76,11 @@
   color: #03034E;
 }
 
-.container--title {
-  color: #03034E;
+/* .container--title {
+  color: #2e0202;
   font-size: 28px;
   font-weight: 700;
-}
+} */
 
 @media only screen and (min-width: 640px) {
   .container--question .strong {
@@ -88,11 +89,12 @@
   }
 
   .container--about {
-    max-width: 85%;
+    max-width: 90%;
+    color: brown;
   }
 
   .container--title {
-    color: #03034E;
+    color: #610606;
     font-size: 40px;
     font-weight: 700;
     max-width: 60%;
@@ -101,4 +103,9 @@
   .container--title .paragraph {
     line-height: 1.3em;
   }
+
+  .container--shelfTitleWhite {
+    color: white;
+  }
 }
+

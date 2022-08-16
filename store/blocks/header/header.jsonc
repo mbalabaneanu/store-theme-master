@@ -80,8 +80,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/logo.png",
-      "width":"77"
+      "url": "assets/carte.gif",
+      "width":"65"
 
     }
   },
@@ -113,7 +113,6 @@
   "menu#drawer": {
     "children": [
       "menu-item#category-apparel",
-      "menu-item#category-home",
       "menu-item#more"
     ],
     "props": {
