@@ -8,12 +8,12 @@
        "list-context.image-list#demo1",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-<<<<<<< Updated upstream
-      "__fold__",
-=======
+
+      // "__fold__",
+
       // "_fold_",
-      "rich-text#white",
->>>>>>> Stashed changes
+      // "rich-text#white",
+
       "info-card#home",
       // "rich-text#question",
       // "rich-text#link",

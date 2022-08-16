@@ -2,17 +2,10 @@
   "store.custom#about-us": {
     "blocks": [
       "flex-layout.row#about-us",
-<<<<<<< Updated upstream
-      "video#about-us"
-    ]
-=======
-      "list-context.image-list#demo0"
+      "list-context.image-list#demo0",
+      "geolocation"
       
-    ],
-    "props":{
-      "image":"assets/fundalabouus.png"
-    }
->>>>>>> Stashed changes
+    ]
   },
 
   "flex-layout.row#about-us": {
@@ -26,14 +19,10 @@
     "children": [
       "rich-text#title-about-us",
       "rich-text#about-us",
-<<<<<<< Updated upstream
-      "rich-text#title-about-uss"
-     
-=======
       "rich-text#title-about-uss",
       "rich-text#about-uss"
       
->>>>>>> Stashed changes
+     
     ],
     "props": {
       "blockclass": "textColumn",
@@ -52,29 +41,91 @@
   "image#mobile-phone": {
     "props": {
       "src": "https://media.giphy.com/media/3tLrOmu4C0nOE/giphy.gif",
-      "maxHeight": "",
-      "maxWidth": "",
+      "width": "800px",
+      "height":"400px",
+      
       "blockClass": "storePrint"
     }
   },
-  "video#about-us": {
-    "props": {
-      "src": "https://www.youtube.com/embed/JgkrlaF52WQ",
-      "width": "100%",
-      "height": "100%"
-    }
-  },
+
   "rich-text#about-us": {
     "props": {
-      "text": "**-Strada Pierre de Coubertin nr. 3-5, lângă Arena Națională, Bucureşti, Mega Mall, etajul 1 \n -Strada Lipscani, nr. 55, Centrul Istoric, București \n -Str. Arthur Verona 13-15, Sector 1, Bucureşti**",
+      "text": "*-Strada Pierre de Coubertin nr. 3-5, lângă Arena Națională, Bucureşti, Mega Mall, etajul 1 \n -Strada Lipscani, nr. 55, Centrul Istoric, București \n -Str. Arthur Verona 13-15, Sector 1, Bucureşti*",
       "blockClass": "about"
     }
   },
+
   "rich-text#title-about-uss": {
     "props": {
       "text":
       "Contact:",
       "blockClass": "title"
     }
+  },
+
+  "rich-text#about-uss": {
+    "props": {
+      "text": "*-Tel:078760067/ 0799109753/ 0742975960\n -WhatsApp:078760067/ 0799109753/ 0742975960\n -E-mail: libraria.camm.vtex.br.com\n -Facebook:vtex\n -Instagram:iamvtex*",
+      "blockClass": "about"
+    }
+  },
+
+  "list-context.image-list#demo0": {
+    "children": ["slider-layout#demo-images0"],
+    "props": {
+      "fullWidth": false,
+      "preload": true,
+      "images": 
+        [
+        {
+          "src": "assets/carturesti-1.jpg",
+          "mobileImage": "assets/carturesti-1.jpg",
+          "width": "800px",
+          "height":"400px"
+        },
+          {
+            "src": "assets/carturesti-2.jpg",
+            "mobileImage": "assets/carturesti-2.jpg",
+            "width": "800px",
+            "height":"400px"
+          },
+        {
+          "src": "assets/carturesti-3.jpg",
+          "mobileImage": "assets/carturesti-3.jpg",
+          "width": "800px",
+          "height":"400px"
+        },
+        {
+          "src": "assets/carturesti-4.jpg",
+          "mobileImage": "assets/carturesti-4.jpg",
+          "width": "800px",
+          "height":"400px"
+        },
+        {
+          "src": "assets/carturesti-5.jpg",
+          "mobileImage": "assets/carturesti-5.jpg",
+          "width": "800px",
+          "height":"400px"
+        },
+        {
+          "src": "assets/carturesti-6.jpg",
+          "mobileImage": "assets/carturesti-6.jpg",
+          "width": "800px",
+          "height":"400px"
+        }
+      ]
+    }
+},
+        "slider-layout#demo-images0": {
+        "props": {
+       "itemsPerPage": {
+       "desktop": 2,
+       "tablet": 2,
+        "phone": 2
+    },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
   }
+}
 }
