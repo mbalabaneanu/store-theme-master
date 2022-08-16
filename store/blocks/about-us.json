@@ -24,7 +24,8 @@
       
      
     ],
-    "props": {
+    "props": { 
+      
       "blockclass": "textColumn",
       "preventVerticalStretch": true
     }
